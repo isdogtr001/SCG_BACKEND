@@ -1,4 +1,8 @@
-# ------------------ INSTALL -------------------
+# Scg Sensors Back End
+
+## Install setup
+
+```
 # arch -arm64 brew install pyenv    ### for mac
 # python3 -m venv venv   
 # pip3 install -r requirement.txt     
@@ -7,9 +11,22 @@
 # pip3 show djangorestframework    
 # pip3 install djangorestframework        
 # pip3 install markdown  
-# pip3 install pandas 
+# pip3 install pandas
 
-#-------------------- RUN -----------------------
+```
+
+## Project setup
+
+```
 # python3 manage.py makemigrations sensorApp
 # python3 manage.py migrate sensorApp  
-# python3 manage.py runserver          
+```
+
+### Compiles and hot-reloads for development
+
+```
+# python3 manage.py runserver
+
+```
+
+
